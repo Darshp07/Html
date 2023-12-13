@@ -1,0 +1,49 @@
+1) Inline CSS:
+
+<p style="color: rgb(0, 255, 85); font-size: 16px;">This is a paragraph with inline CSS.</p>
+
+
+2) Internal or Embedded CSS:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #09813b;
+            
+        }
+        h1 {
+            color: rgb(44, 18, 189);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+
+3) External CSS:
+ 
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+}
+
+4) 
